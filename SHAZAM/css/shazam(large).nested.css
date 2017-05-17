@@ -1,0 +1,116 @@
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 71px;
+  padding: 0 10px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  justify-content: space-between; }
+  header .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    white-space: nowrap; }
+  header .left {
+    display: flex; }
+    header .left .logo {
+      height: 71px;
+      padding: 19px 20px 18px 0; }
+      header .left .logo img {
+        width: 120px;
+        vertical-align: middle; }
+  header .right {
+    display: flex;
+    align-items: center; }
+    header .right .search-box {
+      position: relative;
+      width: 100%;
+      min-width: 300px;
+      margin-right: 10px; }
+      header .right .search-box button {
+        position: absolute;
+        right: 0;
+        border: none;
+        top: 50%;
+        transform: translateY(-50%);
+        background: 0 0; }
+        header .right .search-box button img {
+          width: 20px;
+          height: 20px; }
+      header .right .search-box .search {
+        width: 100%;
+        min-width: 125px;
+        max-width: 450px;
+        background-color: #F4F4F4;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        padding: 14px 50px 14px 10px; }
+    header .right .menu-icon {
+      display: none; }
+
+.example {
+  position: relative; }
+
+main .center {
+  position: relative;
+  top: 71px;
+  display: flex;
+  justify-content: center;
+  background-color: #507878; }
+  main .center .background {
+    position: relative;
+    opacity: 0.7;
+    height: 100%;
+    margin: 0 auto; }
+    main .center .background img {
+      vertical-align: middle; }
+  main .center .module1 {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    width: 40%;
+    font-weight: bold; }
+    main .center .module1 .letters1 {
+      color: #fff;
+      font-size: 40px;
+      font-weight: bold;
+      white-space: pre-line; }
+    main .center .module1 .space {
+      display: none; }
+    main .center .module1 .letters2 {
+      margin-top: 10px;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      white-space: pre-line; }
+    main .center .module1 .letters3 {
+      margin-top: 40px;
+      align-items: center;
+      height: 100%;
+      float: left; }
+      main .center .module1 .letters3 ::after {
+        content: " ";
+        display: block;
+        height: 0;
+        clear: both; }
+      main .center .module1 .letters3 a {
+        float: left;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #08f;
+        border: none;
+        padding: 17px 30px;
+        font-weight: bold;
+        height: auto;
+        line-height: normal;
+        font-size: 16px; }
+  main .center .module2 {
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 30%; }
+    main .center .module2 img {
+      width: 300px; }
